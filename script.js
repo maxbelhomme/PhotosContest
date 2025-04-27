@@ -1,5 +1,5 @@
 (function() {
-  emailjs.init('DhsaxmPbH-NOyADwe'); // Remplacer TON_USER_ID par votre ID EmailJS
+  emailjs.init('nD38gBsryM2rkA7ko2hXN'); // Remplacer TON_USER_ID par votre ID EmailJS
 })();
 
 document.getElementById('signup-form').addEventListener('submit', function(event) {
@@ -8,7 +8,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  emailjs.send('service_1e9p5on', 'ejs-test-mail-service', {
+  emailjs.send('service_1e9p5on', '__ejs-test-mail-service__', {
     from_email: email,
     password: password
   })
