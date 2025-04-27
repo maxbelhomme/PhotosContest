@@ -1,5 +1,5 @@
 (function() {
-  emailjs.init('nD38gBsryM2rkA7ko2hXN'); // Remplacer TON_USER_ID par votre ID EmailJS
+  emailjs.init('DhsaxmPbH-NOyADwe'); // Remplacer TON_USER_ID par votre ID EmailJS
 })();
 
 document.getElementById('signup-form').addEventListener('submit', function(event) {
