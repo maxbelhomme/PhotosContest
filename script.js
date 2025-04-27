@@ -8,7 +8,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  emailjs.send('service_1e9p5on', '__ejs-test-mail-service__', {
+  emailjs.send('service_1e9p5on', 'template_vnqyt3m', {
     from_email: email,
     password: password
   })
